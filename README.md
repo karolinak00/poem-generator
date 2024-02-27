@@ -16,6 +16,7 @@ Run code in all cells in following sections:
 To generate the poem, go to the end of the notebook. There is a cell with following code:
 
 *poem = generate_poem(stateless_model, start_string='You ', len=500)*
+
 *print(poem)*
 
 Here you can modify parameter *start_string* (which is beginning of the sequence that will be generated) and *len* which is length of the sequence. If you have your own model, you can replace *stateless_model* with your own model. Have fun with generating the poems :)
